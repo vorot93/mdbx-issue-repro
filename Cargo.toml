@@ -1,0 +1,10 @@
+[package]
+name = "mdbx-issue-repro"
+version = "0.1.0"
+authors = ["Artem Vorotnikov <artem@vorotnikov.me>"]
+edition = "2018"
+
+[dependencies]
+hex-literal = "0.3"
+mdbx = { git = "https://github.com/vorot93/mdbx-rs" }
+tempfile = "3"
